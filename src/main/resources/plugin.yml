@@ -11,3 +11,9 @@ commands:
     aliases: [shruggie]
     description: ¯\_(ツ)_/¯
     usage: /shrug [message]
+  lenny:
+    description: ( ͡° ͜ʖ ͡°)
+    usage: /lenny [message]
+  disapprove:
+    aliases: [disapproval, lod, lookofdisapproval]
+    usage: /disapprove [message]

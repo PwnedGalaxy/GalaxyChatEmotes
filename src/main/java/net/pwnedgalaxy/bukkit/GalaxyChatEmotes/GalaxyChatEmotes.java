@@ -9,6 +9,8 @@ public class GalaxyChatEmotes extends JavaPlugin
     {
         // register commands
         getCommand("shrug").setExecutor(new GalaxyEmoteCommand("¯\\_(ツ)_/¯"));
+        getCommand("lenny").setExecutor(new GalaxyEmoteCommand("( ͡° ͜ʖ ͡°)"));
+        getCommand("disapprove").setExecutor(new GalaxyEmoteCommand("ಠ_ಠ"));
         PluginDescriptionFile pdfFile = this.getDescription();
         getLogger().info(pdfFile.getName() + " version " + pdfFile.getVersion() + " is enabled!");
     }
