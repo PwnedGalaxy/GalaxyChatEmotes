@@ -11,6 +11,10 @@ public class GalaxyChatEmotes extends JavaPlugin
         getCommand("shrug").setExecutor(new GalaxyEmoteCommand("¯\\_(ツ)_/¯"));
         getCommand("lenny").setExecutor(new GalaxyEmoteCommand("( ͡° ͜ʖ ͡°)"));
         getCommand("disapprove").setExecutor(new GalaxyEmoteCommand("ಠ_ಠ"));
+        getCommand("tableflip").setExecutor(new GalaxyEmoteCommand("(╯°□°）╯︵ ┻━┻"));
+        getCommand("tablethrow").setExecutor(new GalaxyEmoteCommand("(ノಠ益ಠ)ノ彡┻━┻"));
+        getCommand("ohwell").setExecutor(new GalaxyEmoteCommand("ᕕ( ᐛ )ᕗ"));
+
         PluginDescriptionFile pdfFile = this.getDescription();
         getLogger().info(pdfFile.getName() + " version " + pdfFile.getVersion() + " is enabled!");
     }

@@ -18,3 +18,15 @@ commands:
     aliases: [disapproval, lod, lookofdisapproval]
     description: ಠ_ಠ
     usage: /disapprove [message]
+  tableflip:
+    aliases: [flip]
+    description: (╯°□°）╯︵ ┻━┻
+    usage: /tableflip [message]
+  tablethrow:
+    aliases: [throw]
+    description: (ノಠ益ಠ)ノ彡┻━┻
+    usage: /tablethrow [message]
+  ohwell:
+    aliases: [owell]
+    description: ᕕ( ᐛ )ᕗ
+    usage: /ohwell [message]
