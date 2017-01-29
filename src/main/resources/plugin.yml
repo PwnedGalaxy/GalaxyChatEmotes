@@ -16,4 +16,5 @@ commands:
     usage: /lenny [message]
   disapprove:
     aliases: [disapproval, lod, lookofdisapproval]
+    description: ಠ_ಠ
     usage: /disapprove [message]
