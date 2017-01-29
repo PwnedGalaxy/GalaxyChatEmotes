@@ -1,0 +1,13 @@
+name: GalaxyChatEmotes
+version: 1.0.0
+description: We've got the BEST emotes! THE BEST.
+author: AKPWebDesign
+website: https://github.com/PwnedGalaxy/GalaxyChatEmotes
+
+main: net.pwnedgalaxy.bukkit.GalaxyChatEmotes.GalaxyChatEmotes
+
+commands:
+  shrug:
+    aliases: [shruggie]
+    description: ¯\_(ツ)_/¯
+    usage: /shrug [message]
