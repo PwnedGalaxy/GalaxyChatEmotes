@@ -30,3 +30,7 @@ commands:
     aliases: [owell]
     description: ᕕ( ᐛ )ᕗ
     usage: /ohwell [message]
+  kawaii:
+    aliases: [かわいい]
+    description: ｶﾜ(・∀・)ｲｲ!!
+    usage: /kawaii [message]
