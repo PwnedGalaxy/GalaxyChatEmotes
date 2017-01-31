@@ -34,3 +34,12 @@ commands:
     aliases: [かわいい]
     description: ｶﾜ(・∀・)ｲｲ!!
     usage: /kawaii [message]
+  fiteme:
+    description: (ง ͠° ͟ل͜ ͡°)ง
+    usage: /fiteme [message]
+  jimmy:
+    description: [̲̅$̲̅(̲̅ ͡° ͜ʖ ͡°̲̅)̲̅$̲̅]
+    usage: /jimmy [message]
+  goodshit:
+    description: that's some good shit right there if i do say so myself
+    usage: /goodshit [message]
