@@ -18,6 +18,7 @@ public class GalaxyChatEmotes extends JavaPlugin
         getCommand("fiteme").setExecutor(new GalaxyEmoteCommand("(ง ͠° ͟ل͜ ͡°)ง"));
         getCommand("jimmy").setExecutor(new GalaxyEmoteCommand("[̲̅$̲̅(̲̅ ͡° ͜ʖ ͡°̲̅)̲̅$̲̅]"));
         getCommand("goodshit").setExecutor(new GalaxyEmoteCommand("👌👀👌👀👌👀👌👀👌👀 good shit go౦ԁ sHit👌 thats ✔ some good👌👌shit right👌👌there👌👌👌 right✔there ✔✔if i do ƽaү so my self 💯 i say so 💯 thats what im talking about right there right there (chorus: ʳᶦᵍʰᵗ ᵗʰᵉʳᵉ) mMMMMᎷМ💯 👌👌 👌НO0ОଠOOOOOОଠଠOoooᵒᵒᵒᵒᵒᵒᵒᵒᵒ👌 👌👌 👌 💯 👌 👀 👀 👀 👌👌Good shit"));
+        getCommand("ritethere").setExecutor(new GalaxyEmoteCommand("(chorus: ʳᶦᵍʰᵗ ᵗʰᵉʳᵉ)"));
         
         PluginDescriptionFile pdfFile = this.getDescription();
         getLogger().info(pdfFile.getName() + " version " + pdfFile.getVersion() + " is enabled!");
