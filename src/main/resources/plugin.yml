@@ -43,3 +43,7 @@ commands:
   goodshit:
     description: that's some good shit right there if i do say so myself
     usage: /goodshit [message]
+  ritethere:
+    aliases: [chorus]
+    description: (chorus: ʳᶦᵍʰᵗ ᵗʰᵉʳᵉ)
+    usage: /ritethere [message]
