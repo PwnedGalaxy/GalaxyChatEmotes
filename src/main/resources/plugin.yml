@@ -45,5 +45,5 @@ commands:
     usage: /goodshit [message]
   ritethere:
     aliases: [chorus]
-    description: (chorus: ʳᶦᵍʰᵗ ᵗʰᵉʳᵉ)
+    description: "(chorus: ʳᶦᵍʰᵗ ᵗʰᵉʳᵉ)"
     usage: /ritethere [message]
