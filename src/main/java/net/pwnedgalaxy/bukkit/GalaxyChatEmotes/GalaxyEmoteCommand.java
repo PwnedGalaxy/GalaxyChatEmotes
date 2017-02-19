@@ -28,7 +28,7 @@ public class GalaxyEmoteCommand implements TabExecutor
             Player p = (Player) sender;
             
             String msg = String.join(" ", args);
-            p.chat(this.output + " " + msg);
+            p.chat(msg + " " + this.output);
         }
 
         return true;
