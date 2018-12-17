@@ -1,5 +1,5 @@
 name: GalaxyChatEmotes
-version: 1.0.0
+version: 1.1.0
 description: We've got the BEST emotes! THE BEST.
 author: AKPWebDesign
 website: https://github.com/PwnedGalaxy/GalaxyChatEmotes
@@ -7,6 +7,10 @@ website: https://github.com/PwnedGalaxy/GalaxyChatEmotes
 main: net.pwnedgalaxy.bukkit.GalaxyChatEmotes.GalaxyChatEmotes
 
 commands:
+  emotes:
+    aliases: [gcehelp, emotelist]
+    description: List the emotes.
+    usage: /emotes
   shrug:
     aliases: [shruggie]
     description: ¯\_(ツ)_/¯
@@ -47,3 +51,6 @@ commands:
     aliases: [chorus]
     description: "(chorus: ʳᶦᵍʰᵗ ᵗʰᵉʳᵉ)"
     usage: /ritethere [message]
+  cazif:
+    description: "cazif likes men"
+    usage: /cazif [message]

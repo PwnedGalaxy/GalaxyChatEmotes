@@ -23,12 +23,21 @@ public class GalaxyEmoteCommand implements TabExecutor
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args)
     {
         if (!(sender instanceof Player)) {
-            sender.sendMessage(ChatColor.RED + "You must be a player to emote! (for now... sorry)");
+            ChatColor color = ChatColor.LIGHT_PURPLE;
+
+            StringBuilder message = new StringBuilder();
+            message.append(color).append("[Server] ");
+
+            String msg = String.join(" ", args) + " " + this.output;
+            message.append(msg.trim());
+
+            Bukkit.broadcastMessage(message.toString().trim());
+
         } else {
             Player p = (Player) sender;
             
-            String msg = String.join(" ", args);
-            p.chat(msg + " " + this.output);
+            String msg = String.join(" ", args) + " " + this.output;
+            p.chat(msg.trim());
         }
 
         return true;
